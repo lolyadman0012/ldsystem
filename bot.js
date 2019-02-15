@@ -25,8 +25,6 @@ client.on("message", message => {
       .setColor("RANDOM")
       .addField("『LD-System』 『اسم البوت』", true)
       
-      .addField("『المصمم』       زيزو", true)
-      
       .addField("『^help^』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
       
 	    .addField("『^help^^』👻『اذا تبي الاوامر العامة』😳", true)
@@ -833,7 +831,7 @@ client.on('message', message => {
 client.on('message', message => {
   if (true) {
 if (message.content === '^^invite') {
-      message.author.send(' رابط البوت |  https://discordapp.com/oauth2/authorize?client_id=378398305153187840&scope=bot&permissions=2146958591 ').catch(e => console.log(e.stack));
+      message.author.send(' رابط البوت |  https://discordapp.com/oauth2/authorize?client_id=546060264659746833&scope=bot&permissions=2146958591 ').catch(e => console.log(e.stack));
 
     }
    } 
